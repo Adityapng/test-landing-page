@@ -1,2 +1,2 @@
-# test-git-github
- My first repo
+# Odin project 
+Landing project project from odin project
