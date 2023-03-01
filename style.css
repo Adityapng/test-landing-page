@@ -14,6 +14,10 @@ body{
     height: 200px;
 }
 
+.sixtyfive{
+    width: 65%;
+}
+
 .sec1{
     height: 550px;
 }
@@ -89,7 +93,7 @@ body{
     margin-bottom: 5px;
 }
 
-button{
+.herotext > button{
     border: none;
     font-size: 18px;
     font-weight: 900;
@@ -99,6 +103,7 @@ button{
     border-radius: 7px;
     width: 125px;
     height: 35px;
+    padding: 0;
 }
 
 .heroimage{
@@ -117,8 +122,43 @@ button{
     height: 500px;
 }
 
-.sec2 > .seventy{
-    background-color: brown;
+.info{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sri{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    color: #1f2937;
+}
+
+.container{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 200px;
+}
+
+.sbox{
+    height: 190px;
+    width: 190px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+    
+}
+
+.box > p{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #1f2937;
+    font-size: 18px;
 }
 
 .sec3{
@@ -150,10 +190,50 @@ button{
 
 .sec4{
     height: 300px;
+    display: flex;
+    align-items: center;
 }
 
 .sec4 > .seventy{
-    background-color: brown;
+    height: 43%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    width: 60%;
+}
+
+.cta > .b{
+    font-family: 'Roboto';
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    /* margin-bottom: 5px; */
+}
+
+.cta > .l{
+    margin: 0;
+    font-family: 'Roboto';
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.seventy > button{
+    border: solid 2px white;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 7px;
+    width: 125px;
+    height: 35px;
+    padding: 0;
 }
 
 .footer{
