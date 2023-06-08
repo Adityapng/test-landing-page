@@ -160,6 +160,10 @@ body {
   border-radius: 10px;
 }
 
+.sbox > img {
+  border-radius: 5px;
+}
+
 .box > p {
   text-align: center;
   font-family: "Roboto";
